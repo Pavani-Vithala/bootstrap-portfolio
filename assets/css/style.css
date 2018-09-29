@@ -1,0 +1,29 @@
+img{
+    margin-right:20px;  
+    float:left;
+    border:solid;
+    width:350px;
+    height:350px;
+    
+    
+          
+}
+.container{
+    border:solid;
+    border-width:1px;
+    padding:0;
+}
+.footer{
+    background-color: black;   
+    height:100px;
+    text-align:center;
+    border: solid;
+    color:teal;
+    border-top-color: teal;
+    border-top-width:10px;
+    border-bottom-color:black;  
+}
+p{
+    font-size:13px;
+    line-height:300%
+}
