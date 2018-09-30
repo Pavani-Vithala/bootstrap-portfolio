@@ -1,6 +1,5 @@
 img{
-    margin-right:20px;  
-    float:left;
+   
     border:solid;
     width:350px;
     height:350px;
@@ -15,15 +14,40 @@ img{
 }
 .footer{
     background-color: black;   
-    height:100px;
+    height:90x;
     text-align:center;
     border: solid;
     color:teal;
     border-top-color: teal;
+    align-content: center;
     border-top-width:10px;
     border-bottom-color:black;  
 }
 p{
     font-size:13px;
     line-height:300%
+}
+navbar{
+    align-content: center;
+}
+h2{
+    
+    color:teal;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    
+}
+h1{
+    background-color:teal;
+    color:white;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    text-align: center;
+    font-style:italic;
+        
+}
+a{
+    font-family: 'fantasy','Arial', 'Helvetica Neue', 'Helvetica','sans-serif';
+    color: teal;
+}
+a:hover { 
+    color: black; 
 }
