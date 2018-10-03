@@ -1,8 +1,8 @@
 img{
    
     border:solid;
-    width:250px;
-    height:250px;
+    width:450px;
+    height:550px;
  
           
 }
@@ -23,13 +23,14 @@ img{
     border-bottom-color:black;  
 }
 p{
-    font-size:13px;
-    line-height:350%;
+    font-size:20px;
+    line-height:250%;
 }
 .navbar{
-    height:90px;
-    background-color: antiquewhite;
+    height:100px;
+    background-color: white;
 }
+
 h2{
     
     color:teal;
@@ -43,8 +44,7 @@ h1{
     text-align: left;
     font-style:italic;
     width:calc(100/3%);
-
-        
+       
 }
 a{
     font-family: 'fantasy','Arial', 'Helvetica Neue', 'Helvetica','sans-serif';
@@ -56,8 +56,8 @@ a:hover {
 }
 ul li{
     list-style: none;
-    float:right;
-    display:inline;
-    padding:10px;
-  }
+    
+    
+}
+
 
