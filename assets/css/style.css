@@ -5,11 +5,11 @@ body{
 img{
    
     border:solid;
-    width:450px;
-    height:550px;
- 
-          
-}
+    width:100%;
+    
+    max-width:100%;
+}         
+
 .main container h1{
     background-color: #4aaaa5;
     text-align: center;
@@ -54,7 +54,9 @@ h1{
 }
 a{
     font-family: 'fantasy','Arial', 'Helvetica Neue', 'Helvetica','sans-serif';
-    padding:20px;
+   
+    height:100%;
+    display:block;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -70,13 +72,13 @@ ul li{
    
 }
 .pics{
-    width:550px;
-    height:550px;
-    
+    width:100%;
+    max-width:100%;
+    height:100%;
 }
-.container
-{
-    left-margin:
+.col-md-6{
+    padding-left:0px;
+    padding-right:0px;
 }
 
 
