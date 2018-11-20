@@ -5,3 +5,7 @@ Links to my work are provided for qucik reference.
 This is a live page which is updated every time I build a new app.
 
 This is the page which displays my technical skills and proficiency.
+
+My portfolio page can be reached by clicking the below link 
+
+https://pavani-vithala.github.io/bootstrap-portfolio/
