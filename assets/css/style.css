@@ -6,7 +6,7 @@ body{
 img{
    
     border:solid;
-    border-color: black;
+    border-color: orange;
     width:100%;
     margin-right:20px;
     max-width:100%;
@@ -23,16 +23,14 @@ img{
 }
 .footer{
     background-color: black;   
-    height:90x;
+    height:20x;
     text-align:center;
     border: solid;
-    color:purple;
-   /* border-top-color: teal;*/
+    color:orange;
     align-content: center;
-   /* border-top-width:10px;*/
     border-bottom-color:black;
-    /*width:calc(100/3%);  */
     width:100%;
+   
 }
 
 aside{
@@ -44,7 +42,7 @@ aside{
 }
 .navbar{
     height:100px;
-    background-color: purple;
+    background-color: orange;
     width:100%;
     margin:auto 0;
     padding:40px;
@@ -53,14 +51,14 @@ aside{
 
 h2{
     
-    color:purple;
+    color:orange;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     float:left;
     
 }
 h1{
    /* background-color:teal;*/
-    color:purple;
+    color:orange;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     text-align: left;
     font-style:italic;
@@ -70,13 +68,12 @@ h1{
 }
 a{
     font-family: 'fantasy','Arial', 'Helvetica Neue', 'Helvetica','sans-serif';
-    
-    height:100%;
-    display:block;
+        
+    display:inline-block;
 }
 
 .navbar-light .navbar-nav .nav-link .navbar-brand{
-    color: teal;
+    color: orange;
     padding-left:40px;
 }
 a:hover { 
@@ -84,12 +81,12 @@ a:hover {
 }
 i
 {
-    color:purple;
+    color:orange;
 }
 ul li{
     
-    display:inline;
-    color:purple;
+    display:inline-block;
+    color:orange;
     padding:10px;
     
    
