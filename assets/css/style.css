@@ -1,50 +1,66 @@
 body{
-    background-color:white;
+   /* background-color:peachpuff;*/
+   background-image:url("../images/bakground.jpg");
 
 }
 img{
    
     border:solid;
+    border-color: black;
     width:100%;
-    
+    margin-right:20px;
     max-width:100%;
+    margin-left:15px;
 }         
 
-.main container h1{
-    background-color: #4aaaa5;
+.container-fluid h1{
+    /*background-color: #4aaaa5;*/
     text-align: center;
     padding-top: 10px;   
     font-size: 35px;
+  
+
 }
 .footer{
     background-color: black;   
     height:90x;
     text-align:center;
     border: solid;
-    color:teal;
-    border-top-color: teal;
+    color:purple;
+   /* border-top-color: teal;*/
     align-content: center;
-    border-top-width:10px;
-    border-bottom-color:black;  
+   /* border-top-width:10px;*/
+    border-bottom-color:black;
+    /*width:calc(100/3%);  */
+    width:100%;
 }
-p{
+
+aside{
     font-size:20px;
-    line-height:250%;
+    line-height:190%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-left:50px;
+
 }
 .navbar{
     height:100px;
-    background-color: antiquewhite;
+    background-color: purple;
+    width:100%;
+    margin:auto 0;
+    padding:40px;
+    border: solid;
 }
 
 h2{
     
-    color:teal;
+    color:purple;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    float:left;
     
 }
 h1{
-    background-color:teal;
-    color:white;
+   /* background-color:teal;*/
+    color:purple;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     text-align: left;
     font-style:italic;
@@ -54,20 +70,27 @@ h1{
 }
 a{
     font-family: 'fantasy','Arial', 'Helvetica Neue', 'Helvetica','sans-serif';
-   
+    
     height:100%;
     display:block;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link .navbar-brand{
     color: teal;
+    padding-left:40px;
 }
 a:hover { 
     color: black; 
 }
+i
+{
+    color:purple;
+}
 ul li{
     
     display:inline;
+    color:purple;
+    padding:10px;
     
    
 }
@@ -80,7 +103,15 @@ ul li{
     padding-left:0px;
     padding-right:0px;
 }
-
+#MainPic{
+    height: 800px;
+}
+.container-fluid
+{
+    border:thin;
+    border-color:black;
+    
+}
 
 
 
