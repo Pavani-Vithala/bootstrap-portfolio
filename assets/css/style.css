@@ -1,63 +1,116 @@
+body{
+   /* background-color:peachpuff;*/
+   background-image:url("../images/bakground.jpg");
+
+}
 img{
    
     border:solid;
-    width:250px;
-    height:250px;
- 
-          
-}
-.container{
-    border:solid;
-    border-width:1px;
-    padding:0;
+    border-color: orange;
+    width:100%;
+    margin-right:20px;
+    max-width:100%;
+    margin-left:15px;
+}         
+
+.container-fluid h1{
+    /*background-color: #4aaaa5;*/
+    text-align: center;
+    padding-top: 10px;   
+    font-size: 35px;
+  
+
 }
 .footer{
     background-color: black;   
-    height:90x;
+    height:20x;
     text-align:center;
     border: solid;
-    color:teal;
-    border-top-color: teal;
+    color:orange;
     align-content: center;
-    border-top-width:10px;
-    border-bottom-color:black;  
+    border-bottom-color:black;
+    width:100%;
+   
 }
-p{
-    font-size:13px;
-    line-height:350%;
+
+aside{
+    font-size:20px;
+    line-height:190%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-left:50px;
+
 }
 .navbar{
-    height:90px;
-    background-color: antiquewhite;
+    height:100px;
+    background-color: orange;
+    width:100%;
+    margin:auto 0;
+    padding:40px;
+    border: solid;
 }
+
 h2{
     
-    color:teal;
+    color:orange;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    float:left;
+    
+
     
 }
 h1{
-    background-color:teal;
-    color:white;
+   /* background-color:teal;*/
+    color:orange;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     text-align: left;
     font-style:italic;
     width:calc(100/3%);
-
-        
+   
+       
 }
 a{
     font-family: 'fantasy','Arial', 'Helvetica Neue', 'Helvetica','sans-serif';
-    color: teal;
-    
+        
+    display:inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link .navbar-brand{
+    color: orange;
+    padding-left:40px;
 }
 a:hover { 
     color: black; 
 }
+i
+{
+    color:orange;
+}
 ul li{
-    list-style: none;
-    float:right;
-    display:inline;
+    
+    display:inline-block;
+    color:orange;
     padding:10px;
-  }
+    
+   
+}
+.pics{
+    width:100%;
+    max-width:100%;
+    height:100%;
+}
+.col-md-6{
+    padding-left:0px;
+    padding-right:0px;
+}
+#MainPic{
+    height: 800px;
+}
+.container-fluid
+{
+    border:thin;
+    border-color:black;
+    
+}
+
+
 
